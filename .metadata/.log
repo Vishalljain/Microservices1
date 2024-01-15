@@ -1,0 +1,431 @@
+!SESSION 2023-09-06 11:20:18.908 -----------------------------------------------
+eclipse.buildId=4.15.1.202206171354
+java.version=17.0.3
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY org.eclipse.jface 2 0 2023-09-06 11:20:37.120
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-09-06 11:20:37.120
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@742dbac8,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@2ce62e27,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-09-06 11:20:37.120
+!MESSAGE A conflict occurred for ALT+SHIFT+R:
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.jdt.ui.category.refactoring,Refactor - Java,Java Refactoring Actions,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@3538a129,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.rename,Rename,
+		Rename the selected item,
+		Category(org.eclipse.ui.category.file,File,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@766db6f9,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.egit.ui 2 0 2023-09-06 11:20:40.754
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'U:\'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.equinox.p2.engine 4 0 2023-09-06 11:21:00.912
+!MESSAGE Error parsing profile C:\Users\IXL1KOR\sts-4.15.1.RELEASE\p2\org.eclipse.equinox.p2.engine\profileRegistry\DefaultProfile.profile\1666879018854.profile.gz.
+!STACK 0
+java.io.IOException: Premature end of file.
+	at org.eclipse.equinox.internal.p2.engine.SimpleProfileRegistry$Parser.parse(SimpleProfileRegistry.java:756)
+	at org.eclipse.equinox.internal.p2.engine.SimpleProfileRegistry$Parser.parse(SimpleProfileRegistry.java:742)
+	at org.eclipse.equinox.internal.p2.engine.SimpleProfileRegistry.restore(SimpleProfileRegistry.java:550)
+	at org.eclipse.equinox.internal.p2.engine.SimpleProfileRegistry.getProfileMap(SimpleProfileRegistry.java:380)
+	at org.eclipse.equinox.internal.p2.engine.SimpleProfileRegistry.internalGetProfile(SimpleProfileRegistry.java:263)
+	at org.eclipse.equinox.internal.p2.engine.SimpleProfileRegistry.getProfile(SimpleProfileRegistry.java:192)
+	at org.eclipse.equinox.internal.p2.ui.sdk.scheduler.AutomaticUpdateScheduler$1.run(AutomaticUpdateScheduler.java:74)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: org.xml.sax.SAXParseException; lineNumber: 3441; columnNumber: 81; Premature end of file.
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1251)
+	at java.xml/com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:637)
+	at org.eclipse.equinox.internal.p2.engine.SimpleProfileRegistry$Parser.parse(SimpleProfileRegistry.java:753)
+	... 7 more
+
+!ENTRY org.eclipse.equinox.p2.engine 4 0 2023-09-06 11:21:00.944
+!MESSAGE Error parsing profile C:\Users\IXL1KOR\sts-4.15.1.RELEASE\p2\org.eclipse.equinox.p2.engine\profileRegistry\DefaultProfile.profile\1666879018854.profile.gz.
+!STACK 0
+java.io.IOException: Premature end of file.
+	at org.eclipse.equinox.internal.p2.engine.SimpleProfileRegistry$Parser.parse(SimpleProfileRegistry.java:756)
+	at org.eclipse.equinox.internal.p2.engine.SimpleProfileRegistry$Parser.parse(SimpleProfileRegistry.java:742)
+	at org.eclipse.equinox.internal.p2.engine.SimpleProfileRegistry.getProfile(SimpleProfileRegistry.java:222)
+	at org.eclipse.equinox.internal.p2.engine.SurrogateProfileHandler.getSharedProfile(SurrogateProfileHandler.java:172)
+	at org.eclipse.equinox.internal.p2.engine.SurrogateProfileHandler.createProfile(SurrogateProfileHandler.java:216)
+	at org.eclipse.equinox.internal.p2.engine.SimpleProfileRegistry.createSurrogateProfile(SimpleProfileRegistry.java:351)
+	at org.eclipse.equinox.internal.p2.engine.SimpleProfileRegistry.internalGetProfile(SimpleProfileRegistry.java:272)
+	at org.eclipse.equinox.internal.p2.engine.SimpleProfileRegistry.getProfile(SimpleProfileRegistry.java:192)
+	at org.eclipse.equinox.internal.p2.ui.sdk.scheduler.AutomaticUpdateScheduler$1.run(AutomaticUpdateScheduler.java:74)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: org.xml.sax.SAXParseException; lineNumber: 3441; columnNumber: 81; Premature end of file.
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1251)
+	at java.xml/com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:637)
+	at org.eclipse.equinox.internal.p2.engine.SimpleProfileRegistry$Parser.parse(SimpleProfileRegistry.java:753)
+	... 9 more
+
+!ENTRY org.eclipse.equinox.p2.engine 4 0 2023-09-06 11:21:00.977
+!MESSAGE Error parsing profile C:\Users\IXL1KOR\sts-4.15.1.RELEASE\p2\org.eclipse.equinox.p2.engine\profileRegistry\DefaultProfile.profile\1666879018854.profile.gz.
+!STACK 0
+java.io.IOException: Premature end of file.
+	at org.eclipse.equinox.internal.p2.engine.SimpleProfileRegistry$Parser.parse(SimpleProfileRegistry.java:756)
+	at org.eclipse.equinox.internal.p2.engine.SimpleProfileRegistry$Parser.parse(SimpleProfileRegistry.java:742)
+	at org.eclipse.equinox.internal.p2.engine.SimpleProfileRegistry.getProfile(SimpleProfileRegistry.java:222)
+	at org.eclipse.equinox.internal.p2.engine.SurrogateProfileHandler.getSharedProfile(SurrogateProfileHandler.java:172)
+	at org.eclipse.equinox.internal.p2.engine.SurrogateProfileHandler.createProfile(SurrogateProfileHandler.java:216)
+	at org.eclipse.equinox.internal.p2.engine.SimpleProfileRegistry.createSurrogateProfile(SimpleProfileRegistry.java:351)
+	at org.eclipse.equinox.internal.p2.engine.SimpleProfileRegistry.internalGetProfile(SimpleProfileRegistry.java:272)
+	at org.eclipse.equinox.internal.p2.engine.SimpleProfileRegistry.getProfile(SimpleProfileRegistry.java:192)
+	at org.eclipse.equinox.internal.p2.engine.SimpleProfileRegistry.containsProfile(SimpleProfileRegistry.java:930)
+	at org.eclipse.equinox.internal.p2.engine.ProfilePreferences.containsProfile(ProfilePreferences.java:115)
+	at org.eclipse.equinox.internal.p2.engine.ProfilePreferences.load(ProfilePreferences.java:260)
+	at org.eclipse.core.internal.preferences.EclipsePreferences.create(EclipsePreferences.java:367)
+	at org.eclipse.core.internal.preferences.EclipsePreferences.internalNode(EclipsePreferences.java:620)
+	at org.eclipse.core.internal.preferences.EclipsePreferences.node(EclipsePreferences.java:759)
+	at org.eclipse.equinox.p2.engine.ProfileScope.getNode(ProfileScope.java:77)
+	at org.eclipse.ui.preferences.ScopedPreferenceStore.getStorePreferences(ScopedPreferenceStore.java:213)
+	at org.eclipse.ui.preferences.ScopedPreferenceStore.<init>(ScopedPreferenceStore.java:127)
+	at org.eclipse.equinox.internal.p2.ui.sdk.scheduler.AutomaticUpdatePlugin.getPreferenceStore(AutomaticUpdatePlugin.java:139)
+	at org.eclipse.equinox.internal.p2.ui.sdk.scheduler.AutomaticUpdateScheduler.removeUnusedPlugins(AutomaticUpdateScheduler.java:109)
+	at org.eclipse.equinox.internal.p2.ui.sdk.scheduler.AutomaticUpdateScheduler$1.run(AutomaticUpdateScheduler.java:80)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: org.xml.sax.SAXParseException; lineNumber: 3441; columnNumber: 81; Premature end of file.
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1251)
+	at java.xml/com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:637)
+	at org.eclipse.equinox.internal.p2.engine.SimpleProfileRegistry$Parser.parse(SimpleProfileRegistry.java:753)
+	... 20 more
+
+!ENTRY org.eclipse.ui 2 2 2023-09-06 11:22:39.425
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
+!SESSION 2023-09-27 14:54:16.339 -----------------------------------------------
+eclipse.buildId=4.15.1.202206171354
+java.version=17.0.3
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY org.eclipse.jface 2 0 2023-09-27 14:54:27.643
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-09-27 14:54:27.643
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@1ac68548,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@1c3a64b6,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-09-27 14:54:27.643
+!MESSAGE A conflict occurred for ALT+SHIFT+R:
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.jdt.ui.category.refactoring,Refactor - Java,Java Refactoring Actions,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@761b9314,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.rename,Rename,
+		Rename the selected item,
+		Category(org.eclipse.ui.category.file,File,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@20e9c165,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.egit.ui 2 0 2023-09-27 14:54:32.965
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'U:\'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.equinox.p2.engine 4 0 2023-09-27 14:54:53.151
+!MESSAGE Error parsing profile C:\Users\IXL1KOR\sts-4.15.1.RELEASE\p2\org.eclipse.equinox.p2.engine\profileRegistry\DefaultProfile.profile\1666879018854.profile.gz.
+!STACK 0
+java.io.IOException: Premature end of file.
+	at org.eclipse.equinox.internal.p2.engine.SimpleProfileRegistry$Parser.parse(SimpleProfileRegistry.java:756)
+	at org.eclipse.equinox.internal.p2.engine.SimpleProfileRegistry$Parser.parse(SimpleProfileRegistry.java:742)
+	at org.eclipse.equinox.internal.p2.engine.SimpleProfileRegistry.restore(SimpleProfileRegistry.java:550)
+	at org.eclipse.equinox.internal.p2.engine.SimpleProfileRegistry.getProfileMap(SimpleProfileRegistry.java:380)
+	at org.eclipse.equinox.internal.p2.engine.SimpleProfileRegistry.internalGetProfile(SimpleProfileRegistry.java:263)
+	at org.eclipse.equinox.internal.p2.engine.SimpleProfileRegistry.getProfile(SimpleProfileRegistry.java:192)
+	at org.eclipse.equinox.internal.p2.ui.sdk.scheduler.AutomaticUpdateScheduler$1.run(AutomaticUpdateScheduler.java:74)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: org.xml.sax.SAXParseException; lineNumber: 3441; columnNumber: 81; Premature end of file.
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1251)
+	at java.xml/com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:637)
+	at org.eclipse.equinox.internal.p2.engine.SimpleProfileRegistry$Parser.parse(SimpleProfileRegistry.java:753)
+	... 7 more
+
+!ENTRY org.eclipse.equinox.p2.engine 4 0 2023-09-27 14:54:53.173
+!MESSAGE Error parsing profile C:\Users\IXL1KOR\sts-4.15.1.RELEASE\p2\org.eclipse.equinox.p2.engine\profileRegistry\DefaultProfile.profile\1666879018854.profile.gz.
+!STACK 0
+java.io.IOException: Premature end of file.
+	at org.eclipse.equinox.internal.p2.engine.SimpleProfileRegistry$Parser.parse(SimpleProfileRegistry.java:756)
+	at org.eclipse.equinox.internal.p2.engine.SimpleProfileRegistry$Parser.parse(SimpleProfileRegistry.java:742)
+	at org.eclipse.equinox.internal.p2.engine.SimpleProfileRegistry.getProfile(SimpleProfileRegistry.java:222)
+	at org.eclipse.equinox.internal.p2.engine.SurrogateProfileHandler.getSharedProfile(SurrogateProfileHandler.java:172)
+	at org.eclipse.equinox.internal.p2.engine.SurrogateProfileHandler.createProfile(SurrogateProfileHandler.java:216)
+	at org.eclipse.equinox.internal.p2.engine.SimpleProfileRegistry.createSurrogateProfile(SimpleProfileRegistry.java:351)
+	at org.eclipse.equinox.internal.p2.engine.SimpleProfileRegistry.internalGetProfile(SimpleProfileRegistry.java:272)
+	at org.eclipse.equinox.internal.p2.engine.SimpleProfileRegistry.getProfile(SimpleProfileRegistry.java:192)
+	at org.eclipse.equinox.internal.p2.ui.sdk.scheduler.AutomaticUpdateScheduler$1.run(AutomaticUpdateScheduler.java:74)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: org.xml.sax.SAXParseException; lineNumber: 3441; columnNumber: 81; Premature end of file.
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1251)
+	at java.xml/com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:637)
+	at org.eclipse.equinox.internal.p2.engine.SimpleProfileRegistry$Parser.parse(SimpleProfileRegistry.java:753)
+	... 9 more
+
+!ENTRY org.eclipse.equinox.p2.engine 4 0 2023-09-27 14:54:53.200
+!MESSAGE Error parsing profile C:\Users\IXL1KOR\sts-4.15.1.RELEASE\p2\org.eclipse.equinox.p2.engine\profileRegistry\DefaultProfile.profile\1666879018854.profile.gz.
+!STACK 0
+java.io.IOException: Premature end of file.
+	at org.eclipse.equinox.internal.p2.engine.SimpleProfileRegistry$Parser.parse(SimpleProfileRegistry.java:756)
+	at org.eclipse.equinox.internal.p2.engine.SimpleProfileRegistry$Parser.parse(SimpleProfileRegistry.java:742)
+	at org.eclipse.equinox.internal.p2.engine.SimpleProfileRegistry.getProfile(SimpleProfileRegistry.java:222)
+	at org.eclipse.equinox.internal.p2.engine.SurrogateProfileHandler.getSharedProfile(SurrogateProfileHandler.java:172)
+	at org.eclipse.equinox.internal.p2.engine.SurrogateProfileHandler.createProfile(SurrogateProfileHandler.java:216)
+	at org.eclipse.equinox.internal.p2.engine.SimpleProfileRegistry.createSurrogateProfile(SimpleProfileRegistry.java:351)
+	at org.eclipse.equinox.internal.p2.engine.SimpleProfileRegistry.internalGetProfile(SimpleProfileRegistry.java:272)
+	at org.eclipse.equinox.internal.p2.engine.SimpleProfileRegistry.getProfile(SimpleProfileRegistry.java:192)
+	at org.eclipse.equinox.internal.p2.engine.SimpleProfileRegistry.containsProfile(SimpleProfileRegistry.java:930)
+	at org.eclipse.equinox.internal.p2.engine.ProfilePreferences.containsProfile(ProfilePreferences.java:115)
+	at org.eclipse.equinox.internal.p2.engine.ProfilePreferences.load(ProfilePreferences.java:260)
+	at org.eclipse.core.internal.preferences.EclipsePreferences.create(EclipsePreferences.java:367)
+	at org.eclipse.core.internal.preferences.EclipsePreferences.internalNode(EclipsePreferences.java:620)
+	at org.eclipse.core.internal.preferences.EclipsePreferences.node(EclipsePreferences.java:759)
+	at org.eclipse.equinox.p2.engine.ProfileScope.getNode(ProfileScope.java:77)
+	at org.eclipse.ui.preferences.ScopedPreferenceStore.getStorePreferences(ScopedPreferenceStore.java:213)
+	at org.eclipse.ui.preferences.ScopedPreferenceStore.<init>(ScopedPreferenceStore.java:127)
+	at org.eclipse.equinox.internal.p2.ui.sdk.scheduler.AutomaticUpdatePlugin.getPreferenceStore(AutomaticUpdatePlugin.java:139)
+	at org.eclipse.equinox.internal.p2.ui.sdk.scheduler.AutomaticUpdateScheduler.removeUnusedPlugins(AutomaticUpdateScheduler.java:109)
+	at org.eclipse.equinox.internal.p2.ui.sdk.scheduler.AutomaticUpdateScheduler$1.run(AutomaticUpdateScheduler.java:80)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: org.xml.sax.SAXParseException; lineNumber: 3441; columnNumber: 81; Premature end of file.
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1251)
+	at java.xml/com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:637)
+	at org.eclipse.equinox.internal.p2.engine.SimpleProfileRegistry$Parser.parse(SimpleProfileRegistry.java:753)
+	... 20 more
+
+!ENTRY org.eclipse.ui 2 2 2023-09-27 14:54:57.194
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
+!SESSION 2023-10-12 18:52:32.649 -----------------------------------------------
+eclipse.buildId=4.15.1.202206171354
+java.version=17.0.3
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4 -product org.springframework.boot.ide.branding.sts4 -product org.springframework.boot.ide.branding.sts4 -product org.springframework.boot.ide.branding.sts4 -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4 -product org.springframework.boot.ide.branding.sts4 -product org.springframework.boot.ide.branding.sts4 -product org.springframework.boot.ide.branding.sts4 -data C:\Users\IXL1KOR\Documents\MicroServicesTutorial -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY org.eclipse.jface 2 0 2023-10-12 18:52:36.931
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-10-12 18:52:36.931
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@2ee1b017,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@7f9e6167,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-10-12 18:52:36.931
+!MESSAGE A conflict occurred for ALT+SHIFT+R:
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.jdt.ui.category.refactoring,Refactor - Java,Java Refactoring Actions,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@66d69cd2,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.rename,Rename,
+		Rename the selected item,
+		Category(org.eclipse.ui.category.file,File,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@32e5fb4c,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.egit.ui 2 0 2023-10-12 18:52:41.013
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'U:\'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.ui 2 2 2023-10-12 18:52:50.071
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
+!SESSION 2023-12-01 09:43:16.687 -----------------------------------------------
+eclipse.buildId=4.15.1.202206171354
+java.version=17.0.3
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY org.eclipse.jface 2 0 2023-12-01 09:47:05.240
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-12-01 09:47:05.240
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@296a71df,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@4db4431b,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-12-01 09:47:05.240
+!MESSAGE A conflict occurred for ALT+SHIFT+R:
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.jdt.ui.category.refactoring,Refactor - Java,Java Refactoring Actions,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@52849956,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.rename,Rename,
+		Rename the selected item,
+		Category(org.eclipse.ui.category.file,File,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@ab94a32,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.egit.ui 2 0 2023-12-01 09:47:12.253
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'U:\'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.equinox.p2.engine 4 0 2023-12-01 09:47:32.496
+!MESSAGE Error parsing profile C:\Users\IXL1KOR\sts-4.15.1.RELEASE\p2\org.eclipse.equinox.p2.engine\profileRegistry\DefaultProfile.profile\1666879018854.profile.gz.
+!STACK 0
+java.io.IOException: Premature end of file.
+	at org.eclipse.equinox.internal.p2.engine.SimpleProfileRegistry$Parser.parse(SimpleProfileRegistry.java:756)
+	at org.eclipse.equinox.internal.p2.engine.SimpleProfileRegistry$Parser.parse(SimpleProfileRegistry.java:742)
+	at org.eclipse.equinox.internal.p2.engine.SimpleProfileRegistry.restore(SimpleProfileRegistry.java:550)
+	at org.eclipse.equinox.internal.p2.engine.SimpleProfileRegistry.getProfileMap(SimpleProfileRegistry.java:380)
+	at org.eclipse.equinox.internal.p2.engine.SimpleProfileRegistry.internalGetProfile(SimpleProfileRegistry.java:263)
+	at org.eclipse.equinox.internal.p2.engine.SimpleProfileRegistry.getProfile(SimpleProfileRegistry.java:192)
+	at org.eclipse.equinox.internal.p2.ui.sdk.scheduler.AutomaticUpdateScheduler$1.run(AutomaticUpdateScheduler.java:74)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: org.xml.sax.SAXParseException; lineNumber: 3441; columnNumber: 81; Premature end of file.
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1251)
+	at java.xml/com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:637)
+	at org.eclipse.equinox.internal.p2.engine.SimpleProfileRegistry$Parser.parse(SimpleProfileRegistry.java:753)
+	... 7 more
+
+!ENTRY org.eclipse.equinox.p2.engine 4 0 2023-12-01 09:47:32.530
+!MESSAGE Error parsing profile C:\Users\IXL1KOR\sts-4.15.1.RELEASE\p2\org.eclipse.equinox.p2.engine\profileRegistry\DefaultProfile.profile\1666879018854.profile.gz.
+!STACK 0
+java.io.IOException: Premature end of file.
+	at org.eclipse.equinox.internal.p2.engine.SimpleProfileRegistry$Parser.parse(SimpleProfileRegistry.java:756)
+	at org.eclipse.equinox.internal.p2.engine.SimpleProfileRegistry$Parser.parse(SimpleProfileRegistry.java:742)
+	at org.eclipse.equinox.internal.p2.engine.SimpleProfileRegistry.getProfile(SimpleProfileRegistry.java:222)
+	at org.eclipse.equinox.internal.p2.engine.SurrogateProfileHandler.getSharedProfile(SurrogateProfileHandler.java:172)
+	at org.eclipse.equinox.internal.p2.engine.SurrogateProfileHandler.createProfile(SurrogateProfileHandler.java:216)
+	at org.eclipse.equinox.internal.p2.engine.SimpleProfileRegistry.createSurrogateProfile(SimpleProfileRegistry.java:351)
+	at org.eclipse.equinox.internal.p2.engine.SimpleProfileRegistry.internalGetProfile(SimpleProfileRegistry.java:272)
+	at org.eclipse.equinox.internal.p2.engine.SimpleProfileRegistry.getProfile(SimpleProfileRegistry.java:192)
+	at org.eclipse.equinox.internal.p2.ui.sdk.scheduler.AutomaticUpdateScheduler$1.run(AutomaticUpdateScheduler.java:74)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: org.xml.sax.SAXParseException; lineNumber: 3441; columnNumber: 81; Premature end of file.
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1251)
+	at java.xml/com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:637)
+	at org.eclipse.equinox.internal.p2.engine.SimpleProfileRegistry$Parser.parse(SimpleProfileRegistry.java:753)
+	... 9 more
+
+!ENTRY org.eclipse.equinox.p2.engine 4 0 2023-12-01 09:47:32.558
+!MESSAGE Error parsing profile C:\Users\IXL1KOR\sts-4.15.1.RELEASE\p2\org.eclipse.equinox.p2.engine\profileRegistry\DefaultProfile.profile\1666879018854.profile.gz.
+!STACK 0
+java.io.IOException: Premature end of file.
+	at org.eclipse.equinox.internal.p2.engine.SimpleProfileRegistry$Parser.parse(SimpleProfileRegistry.java:756)
+	at org.eclipse.equinox.internal.p2.engine.SimpleProfileRegistry$Parser.parse(SimpleProfileRegistry.java:742)
+	at org.eclipse.equinox.internal.p2.engine.SimpleProfileRegistry.getProfile(SimpleProfileRegistry.java:222)
+	at org.eclipse.equinox.internal.p2.engine.SurrogateProfileHandler.getSharedProfile(SurrogateProfileHandler.java:172)
+	at org.eclipse.equinox.internal.p2.engine.SurrogateProfileHandler.createProfile(SurrogateProfileHandler.java:216)
+	at org.eclipse.equinox.internal.p2.engine.SimpleProfileRegistry.createSurrogateProfile(SimpleProfileRegistry.java:351)
+	at org.eclipse.equinox.internal.p2.engine.SimpleProfileRegistry.internalGetProfile(SimpleProfileRegistry.java:272)
+	at org.eclipse.equinox.internal.p2.engine.SimpleProfileRegistry.getProfile(SimpleProfileRegistry.java:192)
+	at org.eclipse.equinox.internal.p2.engine.SimpleProfileRegistry.containsProfile(SimpleProfileRegistry.java:930)
+	at org.eclipse.equinox.internal.p2.engine.ProfilePreferences.containsProfile(ProfilePreferences.java:115)
+	at org.eclipse.equinox.internal.p2.engine.ProfilePreferences.load(ProfilePreferences.java:260)
+	at org.eclipse.core.internal.preferences.EclipsePreferences.create(EclipsePreferences.java:367)
+	at org.eclipse.core.internal.preferences.EclipsePreferences.internalNode(EclipsePreferences.java:620)
+	at org.eclipse.core.internal.preferences.EclipsePreferences.node(EclipsePreferences.java:759)
+	at org.eclipse.equinox.p2.engine.ProfileScope.getNode(ProfileScope.java:77)
+	at org.eclipse.ui.preferences.ScopedPreferenceStore.getStorePreferences(ScopedPreferenceStore.java:213)
+	at org.eclipse.ui.preferences.ScopedPreferenceStore.<init>(ScopedPreferenceStore.java:127)
+	at org.eclipse.equinox.internal.p2.ui.sdk.scheduler.AutomaticUpdatePlugin.getPreferenceStore(AutomaticUpdatePlugin.java:139)
+	at org.eclipse.equinox.internal.p2.ui.sdk.scheduler.AutomaticUpdateScheduler.removeUnusedPlugins(AutomaticUpdateScheduler.java:109)
+	at org.eclipse.equinox.internal.p2.ui.sdk.scheduler.AutomaticUpdateScheduler$1.run(AutomaticUpdateScheduler.java:80)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: org.xml.sax.SAXParseException; lineNumber: 3441; columnNumber: 81; Premature end of file.
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1251)
+	at java.xml/com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:637)
+	at org.eclipse.equinox.internal.p2.engine.SimpleProfileRegistry$Parser.parse(SimpleProfileRegistry.java:753)
+	... 20 more
+
+!ENTRY org.eclipse.ui 2 2 2023-12-01 09:47:59.285
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
